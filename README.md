@@ -17,3 +17,7 @@ tar -xzvf deltaRpkm.zip     \# Windows
 ```# install the package on the system:  
 R CMD INSTALL deltaRpkm  
 ```
+# Usage
+See: <br>
+1. the user manual (pdf document) for a full tutorial <br>
+2. the Wiki on the GitHub for a quick start introduction <br>
