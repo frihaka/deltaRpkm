@@ -19,6 +19,6 @@ R CMD INSTALL deltaRpkm
 ```
 # Usage
 See: <br>
-1. the Wiki html tab on the GitHub repo for a quick start introduction <br>
-2. the User Manual (deltaRpkm_User_Manual.pdf document in the GitHub repo) for a full tutorial <br>
+1. the **Wiki** html tab on the GitHub repo for a quick start introduction <br>
+2. the User Manual (**deltaRpkm_User_Manual.pdf** document in the GitHub repo) for a full tutorial <br>
 
