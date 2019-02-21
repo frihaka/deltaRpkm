@@ -14,8 +14,10 @@ tar -xzvf deltaRpkm.tar.gz  \# Linux
 tar -xzvf deltaRpkm.gz      \# MacOs  
 tar -xzvf deltaRpkm.zip     \# Windows  
 ```
-```# install the package on the system:  
-R CMD INSTALL deltaRpkm  
+```# install the package on the system (by default, on 1st element of .libPaths()):  
+setwd("/path/2/deltaRpkm")
+install.packages(pkgs = "deltaRpkm", 
+                 repos = "./")
 ```
 # Usage
 See: <br>
