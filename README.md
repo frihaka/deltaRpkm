@@ -15,5 +15,5 @@ tar -xzvf deltaRpkm.gz      \# MacOs
 tar -xzvf deltaRpkm.zip     \# Windows  
 ```
 ```# install the package on the system:  
-R CMD INSTALL deltaRpkm   <br>
+R CMD INSTALL deltaRpkm  
 ```
