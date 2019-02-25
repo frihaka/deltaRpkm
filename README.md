@@ -7,13 +7,14 @@ The package provides functions to compute the **RPKM**, the **deltaRPKM**, ident
 It also includes methods to perform some batch effects controls and diagnostics plots.
 
 # Install 
-Download the binary file specific to your system and then on a terminal:
+Download (from the deltaRpkm/bin repo) the binary file that is specific to your system:
 
 ``` # download the relevant binary for your platform
 deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz      # Ubuntu (14.04 LTS)
 deltaRpkm_0.1.0_mac.tgz                           # MacOS (10.13)  
 deltaRpkm_0.1.0_win.zip                           # Windows7
 ```
+and then on a terminal on your local working directory:
 ```# install the package on your system, from the terminal:  
 R CMD deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
 ```
