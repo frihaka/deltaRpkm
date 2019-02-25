@@ -16,7 +16,7 @@ deltaRpkm_0.1.0_win.zip                           # Windows7
 ```
 and then on a terminal on your local working directory:
 ```# install the package on your system, from the terminal:  
-R CMD deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
+R CMD INSTALL deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
 ```
 # Usage
 See: <br>
