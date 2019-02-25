@@ -9,18 +9,16 @@ It also includes methods to perform some batch effects controls and diagnostics 
 # Install 
 Download the binary file specific to your system and then on a terminal:
 
-``` # decompress it
-tar -xzvf deltaRpkm.tar.gz  \# Linux 
-tar -xzvf deltaRpkm.gz      \# MacOs  
-tar -xzvf deltaRpkm.zip     \# Windows  
+``` # download the relevant binary for your platform
+deltaRpkm.tar.gz  \# Linux 
+deltaRpkm.gz      \# MacOs  
+deltaRpkm.zip     \# Windows
 ```
-```# install the package on the system (by default, on 1st element of .libPaths()):  
-setwd("/path/2/deltaRpkm")
-install.packages(pkgs = "deltaRpkm", 
-                 repos = "./")
+```# install the package on your system, from the terminal:  
+R CMD deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
 ```
 # Usage
 See: <br>
 1. the **Wiki** html tab on the GitHub repo for a quick start introduction <br>
-2. the User Manual (**deltaRpkm_User_Manual.pdf** document in the GitHub repo) for a full tutorial <br>
+2. the User Manual (**deltaRpkm_User_Manual.pdf** document in the GitHub repo) for a detailed tutorial <br>
 
