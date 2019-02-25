@@ -11,8 +11,8 @@ Download the binary file specific to your system and then on a terminal:
 
 ``` # download the relevant binary for your platform
 deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz  \# Linux 
-deltaRpkm_macos_0.1.0.tgz      \# MacOs  
-deltaRpkm_0.1.0.zip     \# Windows
+deltaRpkm_macos_0.1.0.tgz                     \# MacOs  
+deltaRpkm_0.1.0.zip                           \# Windows
 ```
 ```# install the package on your system, from the terminal:  
 R CMD deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
