@@ -10,7 +10,7 @@ It also includes methods to perform some batch effects controls and diagnostics 
 Download the binary file specific to your system and then on a terminal:
 
 ``` # download the relevant binary for your platform
-deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz      # ubuntu (14.04 LTS)
+deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz      # Ubuntu (14.04 LTS)
 deltaRpkm_0.1.0_mac.tgz                           # MacOS (10.13)  
 deltaRpkm_0.1.0_win.zip                           # Windows7
 ```
