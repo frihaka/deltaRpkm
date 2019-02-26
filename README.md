@@ -15,9 +15,20 @@ deltaRpkm_0.1.0_mac.tgz                           # MacOS (10.13)
 deltaRpkm_0.1.0_win.zip                           # Windows7
 ```
 and then on a terminal on your local working directory:
-```# install the package on your system, from the terminal:  
+
+```
+# install the package on your system, from the terminal:  
 R CMD INSTALL deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
 ```
+
+Alternatively, one can install from inside R/RStudio as:
+```
+> install.packages("deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz", repos = NULL, dependencies = TRUE)
+```
+
+
+
+
 # Usage
 See: <br>
 1. the **Wiki** (doc/Quick Start to deltaRpkm · frihaka_deltaRpkm Wiki.html) tab on the GitHub repo for a quick start <br>
