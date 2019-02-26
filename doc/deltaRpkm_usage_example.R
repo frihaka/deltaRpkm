@@ -2,14 +2,34 @@
 # A quick script to test deltaRpkm R package #
 ##############################################
 
+
 # 1 - download deltaRpkm package binary from GitHub (choose the one relevant to your OS)
 
 # 2 - install from terminal with the following command:
 # R CMD INSTALL deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz  # for Ubuntu 14.04 for example
 
+# 3 - R dependencies
+# Make sure that basic CRAN packages are already in your system, like ggplot2, dplyr...if not install via install.packges("pkg_name")
+# Make sure that Bioconductor packages "sva" and "Biostrings" are installed
+# for R >= 3.5
+# > if (!requireNamespace("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install("sva", version = "3.8")
+#
+# > if (!requireNamespace("BiocManager", quietly = TRUE))
+#   install.packages("BiocManager")
+# BiocManager::install("Biostrings", version = "3.8")
+#
+# # for R <= 3.4
+# source("https://bioconductor.org/biocLite.R")
+# biocLite("sva")
+# biocLite("Biostrings")
+
+
+
+
 library("deltaRpkm")
 library("ggfortify")  # install.packages("ggfortify") if not already on your libs
-
 
 
 # load datasets
@@ -49,7 +69,7 @@ deltarpkm_table <- deltarpkm(rpkm_table = rpkmtable,
 # Get differentially present genes
 stats_table <- deltaRPKMStats(deltarpkm_table = deltarpkm_table)
 differential_present_genes <- unique(stats_table[stats_table$selected_gene %in% "+", ]$geneID)
-median_plot(data_table = stats_table, 
+median_plot(data_table = stats_table,
             gene_annotation_table = coverage_table_N11)
 
 
