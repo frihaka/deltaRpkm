@@ -20,6 +20,7 @@ R CMD INSTALL deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
 ```
 # Usage
 See: <br>
-1. the **Wiki** html tab on the GitHub repo for a quick start introduction <br>
-2. the User Manual (**deltaRpkm_User_Manual.pdf** document in the GitHub repo) for a detailed tutorial <br>
+1. the **Wiki** (doc/Quick Start to deltaRpkm · frihaka_deltaRpkm Wiki.html) tab on the GitHub repo for a quick start <br>
+2. the test R script (doc/deltaRpkm_usage_example.R) to play with the main methods and parameters of the pipeline <br>
+3. the User Manual (**deltaRpkm_User_Manual.pdf** document in doc/) for a detailed tutorial <br>
 
