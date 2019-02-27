@@ -33,6 +33,6 @@ This will install any missing **CRAN** R packages required by deltaRpkm. But mis
 # Usage
 See: <br>
 1. the **Wiki** (doc/Quick Start to deltaRpkm · frihaka_deltaRpkm Wiki.html) tab on the GitHub repo for a quick start <br>
-2. the test R script (doc/deltaRpkm_usage_example.R) to play with the main methods and parameters of the pipeline <br>
-3. the User Manual (**deltaRpkm_User_Manual.pdf** document in doc/) for a detailed tutorial <br>
+2. the test R script (doc/**deltaRpkm_usage_example.R**) to play with the main methods and parameters of the pipeline <br>
+3. the User Manual (doc/**deltaRpkm_User_Manual.pdf**) for a detailed tutorial <br>
 
