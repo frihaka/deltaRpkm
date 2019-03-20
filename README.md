@@ -1,5 +1,5 @@
 # deltaRpkm
-An R package for a rapid differential gene presence analysis between similar genomes
+An R package for a rapid differential gene presence analysis between large datasets of similar genomes
 
 # Background 
 deltaRpkm is an R package whose main purpose is to quickly identify genes potentially involved in a given phenotype by performing a _differential analysis of genes coverage between two sets of closely related genomes_. <br>
