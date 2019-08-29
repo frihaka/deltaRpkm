@@ -13,7 +13,7 @@ Download (from the deltaRpkm/bin repo) the binary file that is specific to your 
 deltaRpkm_0.1.0_ubuntu14.tar.gz      # Ubuntu (14 LTS)
 deltaRpkm_0.1.0_ubuntu18.tar.gz      # Ubuntu (18 LTS)
 deltaRpkm_0.1.0_mac.tgz              # MacOS (10.13)  
-deltaRpkm_0.1.0_win.zip              # Windows7
+deltaRpkm_0.1.0.zip                  # Windows7 
 ```
 and then on a terminal on your local working directory:
 
