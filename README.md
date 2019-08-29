@@ -19,13 +19,13 @@ and then on a terminal on your local working directory:
 
 ```
 # install the package on your system, from the terminal:  
-R CMD INSTALL deltaRpkm_0.1.0_ubuntu14.tar.gz
+R CMD INSTALL path/2/deltaRpkm_0.1.0_ubuntu14.tar.gz
 ```
 Note that any missing CRAN or Bioconductor pacakges required by deltaRpkm will still be needed to be installed accordingly.
 
 Alternatively, one can install from inside R/RStudio as:
 ```
-> install.packages("deltaRpkm_0.1.0_ubuntu14.tar.gz", repos = NULL, dependencies = TRUE)
+> install.packages("path/2/deltaRpkm_0.1.0_ubuntu14.tar.gz", repos = NULL, dependencies = TRUE)
 ```
 This will install any missing **CRAN** R packages required by deltaRpkm. But missing Bioconductor packages will still need to be installed accordingly.
 
