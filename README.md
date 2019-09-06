@@ -1,9 +1,9 @@
 # deltaRpkm
-An R package for a rapid differential gene presence analysis between large datasets of similar genomes
+An R package for a rapid differential gene presence analysis between large datasets of similar bacterial genomes
 
 # Background 
-deltaRpkm is an R package whose main purpose is to quickly identify genes potentially involved in a given phenotype by performing a _differential analysis of genes coverage between two sets of closely related genomes_. <br>
-The package provides functions to compute the **RPKM**, the **deltaRPKM**, identify candidate genes filtering and make heatmap plot.  <br>
+deltaRpkm is an R package whose main purpose is to quickly identify genes potentially involved in a given phenotype by performing a _differential analysis of genes coverage between two sets of closely related bacterial genomes_. <br>
+The package provides functions to compute the **RPKM**, the **deltaRPKM**, identify candidate genes filtering and make heatmap plots.  <br>
 It also includes methods to perform some batch effects controls and diagnostics plots.
 
 # Install 
@@ -15,15 +15,15 @@ deltaRpkm_0.1.0_ubuntu18.tar.gz      # Ubuntu (18 LTS)
 deltaRpkm_0.1.0_mac.tgz              # MacOS (10.13)  
 deltaRpkm_0.1.0.zip                  # Windows7 
 ```
-and then on a terminal on your local working directory:
+and then, on a terminal on your local working directory:
 
 ```
 # install the package on your system, from the terminal:  
 R CMD INSTALL path/2/deltaRpkm_0.1.0_ubuntu14.tar.gz
 ```
-Note that any missing CRAN or Bioconductor pacakges required by deltaRpkm will still be needed to be installed accordingly.
+Note that any missing CRAN or Bioconductor packages required by deltaRpkm need to be installed accordingly.
 
-Alternatively, one can install from inside R/RStudio as:
+Alternatively, it can be installed from inside R/RStudio as:
 ```
 > install.packages("path/2/deltaRpkm_0.1.0_ubuntu14.tar.gz", repos = NULL, dependencies = TRUE)
 ```
