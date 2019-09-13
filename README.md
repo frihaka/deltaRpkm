@@ -2,7 +2,7 @@
 An R package for a rapid differential gene presence analysis between large datasets of similar bacterial genomes
 
 # Background 
-deltaRpkm is an R package whose main purpose is to quickly identify genes potentially involved in a given phenotype by performing a _differential analysis of genes coverage between two sets of closely related bacterial genomes_. <br>
+deltaRpkm is an R package whose main purpose is to quickly identify genes potentially involved in a given trait by performing a _differential analysis of genes coverage between two sets of closely related bacterial genomes_. <br>
 The package provides functions to compute the **RPKM**, the **deltaRPKM**, identify candidate genes filtering and make heatmap plots.  <br>
 It also includes methods to perform some batch effects controls and diagnostics plots.
 
