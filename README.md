@@ -10,22 +10,21 @@ It also includes methods to perform some batch effects controls and diagnostics 
 Download (from the deltaRpkm/bin repo) the binary file that is specific to your system:
 
 ``` # download the relevant binary for your platform
-deltaRpkm_0.1.0_ubuntu14.tar.gz      # Ubuntu (14 LTS)
-deltaRpkm_0.1.0_ubuntu18.tar.gz      # Ubuntu (18 LTS)
-deltaRpkm_0.1.0_mac.tgz              # MacOS (10.13)  
-deltaRpkm_0.1.0.zip                  # Windows10 
+deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz      # Ubuntu (18 LTS)
+deltaRpkm_0.1.0_mac.tgz                           # MacOS (10.13)  
+deltaRpkm_0.1.0.zip                               # Windows10 
 ```
 and then, on a terminal on your local working directory:
 
 ```
 # install the package on your system, from the terminal:  
-R CMD INSTALL path/2/deltaRpkm_0.1.0_ubuntu14.tar.gz
+R CMD INSTALL path/2/deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz
 ```
 Note that any missing CRAN or Bioconductor packages required by deltaRpkm need to be installed accordingly.
 
 Alternatively, it can be installed from inside R/RStudio as:
 ```
-> install.packages("path/2/deltaRpkm_0.1.0_ubuntu14.tar.gz", repos = NULL, dependencies = TRUE)
+> install.packages("path/2/deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz", repos = NULL, dependencies = TRUE)
 ```
 This will install any missing **CRAN** R packages required by deltaRpkm. But missing Bioconductor packages will still need to be installed accordingly.
 
