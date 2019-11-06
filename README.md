@@ -36,3 +36,7 @@ See: <br>
 2. the test R script (doc/**deltaRpkm_usage_example.R**) to play with the main methods and parameters of the pipeline <br>
 3. the User Manual (doc/**deltaRpkm_User_Manual.pdf**) for a detailed tutorial <br>
 
+<br>
+**Note**: if using more than 150 genomes, try rather with the machine with more RAM (32GB).
+
+
