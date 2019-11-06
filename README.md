@@ -37,6 +37,6 @@ See: <br>
 3. the User Manual (doc/**deltaRpkm_User_Manual.pdf**) for a detailed tutorial <br>
 
 <br>
-**Note**: if using more than 150 genomes, try rather with the machine with more RAM (>=32GB).
+Note: if using more than 150 genomes, try rather with the machine with more RAM (>=32GB).
 
 
