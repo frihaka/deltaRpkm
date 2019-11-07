@@ -12,7 +12,7 @@ Download (from the deltaRpkm/bin repo) the binary file that is specific to your 
 ``` # download the relevant binary for your platform
 deltaRpkm_0.1.0_R_x86_64-pc-linux-gnu.tar.gz      # Ubuntu (18 LTS)
 deltaRpkm_0.1.0_mac.tgz                           # MacOS (10.13)  
-deltaRpkm_0.1.0.zip                               # Windows10 
+deltaRpkm_0.1.0.zip                               # Windows
 ```
 and then, on a terminal on your local working directory:
 
@@ -37,6 +37,6 @@ See: <br>
 3. the User Manual (doc/**deltaRpkm_User_Manual.pdf**) for a detailed tutorial <br>
 
 <br>
-Note: if using more than 150 genomes, try rather with a machine with more RAM (>=32GB).
+Note: if using more than 150 genomes, try rather with a machine with more RAM (>=16GB).
 
 
